@@ -2,11 +2,11 @@
 
 # Send Flask to AWS Lambda with Zappa
 
- ## Heλλo Worλd, the most basic template
+## Heλλo Worλd, the most basic template
 
-    Heλλo! This is a minimal Python [Flask](http://flask.pocoo.org/docs/0.11/tutorial/) app for getting started with [Amazon Lambda](https://aws.amazon.com/lambda/).
+  Heλλo! This is a minimal Python [Flask](http://flask.pocoo.org/docs/0.11/tutorial/) app for getting started with [Amazon Lambda](https://aws.amazon.com/lambda/).
 
-    All the Lambda magic is handled by [Zappa](https://zappa.gun.io/).
+  All the Lambda magic is handled by [Zappa](https://zappa.gun.io/).
 
 # Why?
 
@@ -45,12 +45,12 @@ Send to the cloud
 
 1. First time, builds the routes which can take a while. This will give a link to the active Lambda app.
 
-  zappa deploy dev
+    zappa deploy dev
 
 2. Future iterations
 
-  zappa update dev
+    zappa update dev
 
 3. Cleanup when done
 
-  zappa undeploy dev
+    zappa undeploy dev
