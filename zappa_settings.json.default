@@ -1,9 +1,14 @@
 {
-    "dev": { // The name of your environment
+    "dev": {
+    // The name of your environment
 	   "aws_region": "us-west-2",
-       "s3_bucket": "bucket", // The name of your S3 bucket
-       "app_function": "flask-demo.app", // The python path to your WSGI application function. In Flask, this is your 'app' object.
-       "remote_env_bucket": "bucket-config", // Where to look for a file containing ENV variables
-       "remote_env_file": "secret-config-development.json", // ENV variables
+       // The name of your S3 bucket
+       "s3_bucket": "bucket",
+       // The python path to your WSGI application function. In Flask, this is your 'app' object.
+       "app_function": "flask-demo.app",
+       // Where to look for a file containing ENV variables
+       "remote_env_bucket": "bucket-config",
+       // ENV variables
+       "remote_env_file": "secret-config-development.json",
     }
 }
